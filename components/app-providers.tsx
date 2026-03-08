@@ -28,7 +28,7 @@ function SolanaProvider({ children }: PropsWithChildren) {
     <MobileWalletProvider
       chain={selectedCluster.id}
       endpoint={selectedCluster.endpoint}
-      identity={{ name: 'Wallet UI Example Web3js Expo' }}
+      identity={{ name: 'LEGACY' }}
     >
       {children}
     </MobileWalletProvider>
